@@ -1,20 +1,40 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react'
+import { StatusBar } from 'expo-status-bar'
+import { SkinsList } from './src/screens/SkinsList'
+import { colors } from './src/theme'
+import AppLoading from 'expo-app-loading'
+import {
+  useFonts,
+  Roboto_700Bold as RobotoBold,
+  Roboto_300Light as RobotoLight,
+  Roboto_500Medium as RobotoMedium
+} from '@expo-google-fonts/roboto'
+import {
+  Quicksand_300Light as QuickLight,
+  Quicksand_400Regular as QuickRegular,
+  Quicksand_500Medium as QuickMedium,
+  Quicksand_700Bold as QuickBold
+} from '@expo-google-fonts/quicksand'
 
-export default function App() {
+export default function App () {
+  const [fontsLoaded] = useFonts({
+    RobotoBold,
+    RobotoMedium,
+    RobotoLight,
+    QuickLight,
+    QuickMedium,
+    QuickRegular,
+    QuickBold
+  })
+
+  if (!fontsLoaded) {
+    return <AppLoading />
+  }
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <>
+      <StatusBar style='light' translucent={false} backgroundColor={colors.carbon1} />
+      <SkinsList />
+    </>
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

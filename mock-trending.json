@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "name": "Aeronaut",
+    "rating": 1,
+    "price": 1100,
+    "release_date": "Sep 10th, 2019",
+    "type": "Outfit",
+    "availability": "Shop Now",
+    "image_url": "https://progameguides.com/wp-content/uploads/2019/08/fortnite-aeronaut-skin-featured.png"
+  },
+  {
+    "id": 1,
+    "name": "Cobalt",
+    "rating": 3,
+    "price": 1200,
+    "release_date": "Sep 10th, 2019",
+    "type": "Outfit",
+    "availability": "Shop Now",
+    "image_url": "https://progameguides.com/wp-content/uploads/2019/04/fortnite-cobalt-featured-png.png"
+  },
+  {
+    "id": 2,
+    "name": "Flapjackie",
+    "rating": 2,
+    "price": 1300,
+    "release_date": "Sep 10th, 2019",
+    "type": "Outfit",
+    "availability": "Shop Now",
+    "image_url": "https://progameguides.com/wp-content/uploads/2019/04/fortnite-flapjackie-featured-png.png"
+  },
+  {
+    "id": 3,
+    "name": "Imperial Stormtrooper",
+    "rating": 5,
+    "price": 1400,
+    "release_date": "Sep 10th, 2019",
+    "type": "Outfit",
+    "availability": "Shop Now",
+    "image_url": "https://progameguides.com/wp-content/uploads/2019/11/fortnite-imperial-stormtrooper-skin-featured.png"
+  }
+]
