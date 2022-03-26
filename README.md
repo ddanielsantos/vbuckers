@@ -6,7 +6,7 @@ This project is a mobile app based on [Andrey Perevoznik' Game App & Gaming Stor
 
 ## What's Vbuckers ?
 
-Based on Andreys's idea I started coding Vbucker, on this app you can see the trending skins accord to the community, vote if you like or dislike them, track the skins that you own, and see other people's skins, there are many other features planned but that's what I did until now.
+Based on Andreys's idea I started coding Vbuckers, on this app you can see the trending skins accord to the community, vote if you like or dislike them, track the skins that you own, and see other people's skins, there are many other features planned but that's what I did until now.
 
 ## Structure
 
